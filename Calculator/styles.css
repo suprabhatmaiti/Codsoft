@@ -1,0 +1,49 @@
+.container {
+  align-items: center;
+  text-align: center;
+  background-color: rgb(37, 41, 41);
+  width: 300px;
+  margin: auto;
+  border-radius: 30px;
+  padding-bottom: 2rem;
+}
+.container h1 {
+  color: white;
+}
+.container div button {
+  margin: 3px;
+  background-color: rgb(136, 88, 15);
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.8s;
+  font-weight: bold;
+  font-size: larger;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+}
+.container input {
+  border: none;
+  height: 40px;
+  width: 220px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+.container input:focus {
+  outline: none;
+}
+.container button:active {
+  background-color: rgb(187, 137, 63);
+}
+.backspace {
+  background-color: rgb(136, 88, 15);
+  font-weight: bold;
+  color: aliceblue;
+  border: none;
+  border-radius: 25px 10px 10px 25px;
+  cursor: pointer;
+  transition: all 0.8s;
+  padding: 5px 15px;
+}
