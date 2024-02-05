@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>TravelForever</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <h1>TravelForever</h1>
+          <ul class="navLink">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Tour</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <a href="#" class="bookNow">Book Now</a>
+        </nav>
+      </header>
+      <div class="main">
+        <div class="hero">
+          <img
+            class="heroImage"
+            src="./images/pexels-james-wheeler-417074.jpg"
+            alt="natureImgae"
+          />
+          <div class="quote">
+            <h1>Plan your dream trip</h1>
+            <p>
+              Did you know that as you take in the sights, smells, and
+              sensations of a new destination, you’re doing more than making
+              memories? <br />
+              <br />
+              Travel experiences actually prompt your brain to think differently
+              and more creatively too! You’re also creating new neural pathways,
+              which can help refine your problem-solving and reasoning skills.
+            </p>
+            <a href="#" class="seeTrips">See Trips ></a>
+          </div>
+        </div>
+        <div class="Explore">
+          <form action="#" style="display: flex; justify-content: space-around">
+            <div>
+              <select name="location" id="location">
+                <option value="location">Location</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="bangaluru">Bangaluru</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="newDelhi">New Delhi</option>
+                <option value="chennai">Chennai</option>
+                <option value="punjub">Punjab</option>
+              </select>
+              <p>Where are you going</p>
+            </div>
+            <div>
+              <label class="date" for="date">Date</label>
+              <input type="date" id="date" name="date" />
+              <p>When you will go</p>
+            </div>
+            <div>
+              <select name="guest" id="guest">
+                <!-- <option value="guest">Guest</option> -->
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="7">7 Guests</option>
+                <option value="8">8 Guests</option>
+              </select>
+              <p>Number of guests</p>
+            </div>
+            <button class="explore">Explore</button>
+          </form>
+        </div>
+      </div>
+      <div class="popularSearches">
+        <h3>Popular Searches</h3>
+        <h3>--------------</h3>
+        <div>
+          <ul class="popularCity">
+            <li><a href="#">Goa</a></li>
+            <li><a href="#">Kerala</a></li>
+            <li><a href="#">Uttar Pradesh</a></li>
+            <li><a href="#">Gujrat</a></li>
+            <li><a href="#">Karnataka</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="companyInfo">
+        <h3>Company Info</h3>
+        <p>
+          A good plus of traveling is that often you get new skills without
+          difficulty and without even noticing it.
+        </p>
+      </div>
+      <div class="contacts">
+        <div>
+          <img
+            src="./icons/icons8-phone-64.png"
+            alt=""
+            width="20"
+            height="20"
+          />
+          <p>123-456-78901</p>
+        </div>
+        <div>
+          <img
+            src="./icons/icons8-location-50.png"
+            alt=""
+            width="20"
+            height="20"
+          />
+          <p>Kolkata,West Bengal, India</p>
+        </div>
+        <div>
+          <img
+            src="./icons/icons8-clock-64.png"
+            alt=""
+            width="20"
+            height="20"
+          />
+          <p>Mon - Sat 8.00 - 18.00</p>
+        </div>
+      </div>
+      <div class="recentTrips">
+        <h3>Recent Trips</h3>
+        <div class="row1">
+          <img src="images/01.jpg" alt="" height="70" width="70" />
+          <img src="images/021.jpg" alt="" height="70" width="70" />
+          <img src="images/032.jpg" alt="" height="70" width="70" />
+        </div>
+        <div class="row2">
+          <img src="images/043.jpg" alt="" height="70" width="70" />
+          <img src="images/054.jpg" alt="" height="70" width="70" />
+          <img src="images/065.jpg" alt="" height="70" width="70" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
