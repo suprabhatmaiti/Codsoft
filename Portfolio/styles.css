@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
 }
+.container {
+  margin: 0 2rem;
+}
+
+/* Styling NavBar */
 .logo {
   height: 50px;
   cursor: pointer;
@@ -56,10 +61,15 @@ button {
 button:hover {
   background-color: blue;
 }
+
+/* Styling About Part */
+
 .main {
-  margin-left: 8%;
-  margin-top: 15%;
+  margin: 10% 8%;
+  padding-top: 2rem;
+  display: flex;
 }
+
 .main h1 {
   font-size: 50px;
   color: #212121;
@@ -79,39 +89,33 @@ span {
   border-radius: 5px;
 }
 .main p {
-  width: 50%;
+  width: 70%;
   color: rgba(0, 0, 0, 0.7);
+  font-size: larger;
 }
-.image {
-  position: absolute;
-  width: 45%;
-  height: 80%;
-  bottom: 0;
-  right: 2rem;
-}
-.image img {
-  height: 70%;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-40%);
-}
+
 .photo {
-  position: absolute;
+  border: 10px solid rgba(56, 53, 238, 0.22);
   border-radius: 50%;
-  align-items: center;
-  width: 60%;
-  margin-bottom: 3rem;
-  margin-right: 2rem;
+  width: 350px;
 }
+
+/* Styling My Skill part */
+
 .skills {
   text-transform: uppercase;
-  margin-top: 6rem;
+  margin-bottom: 2rem;
   padding: 2rem 5rem;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  display: flex;
+  justify-content: space-between;
 }
-.skills h1 {
+.skillHeader {
+  font-size: larger;
   text-align: center;
+}
+.skillLeft {
+  width: 100%;
 }
 .skills h3 {
   margin: 5px;
@@ -119,7 +123,7 @@ span {
 .skills li {
   margin: 1rem 0;
   list-style: none;
-  width: 50%;
+  width: 80%;
 }
 
 .bar {
@@ -212,21 +216,11 @@ span {
     width: 50%;
   }
 }
-.skillimage {
-  position: absolute;
-  width: 35%;
-  height: 80%;
-  bottom: 0;
-  right: 100px;
+.skillimage > img {
+  width: 350px;
 }
-.skillimage img {
-  height: 80%;
-  position: relative;
-  left: 50%;
-  top: 32rem;
-  bottom: 0;
-  transform: translateX(-50%);
-}
+
+/* Styling Project section */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -271,29 +265,28 @@ span {
 .card > a:hover {
   opacity: 0.7;
 }
-.project > h1 {
-  text-align: center;
-  align-items: center;
-}
+
 .project {
   text-align: center;
-  padding: 20px 0;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  margin: 20px 0 0 0;
+  /* padding: 50px 0; */
+  margin: 10% 0;
 }
 .projects {
   display: flex;
   justify-content: space-around;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
-footer {
+/* Styling footer */
+
+.footer {
   background-color: #3f3f3f;
-  /* margin-top: 10px; */
+
   display: flex;
   justify-content: space-around;
   padding: 30px 0;
   color: white;
+  align-items: center;
 }
 
 .contacts > div {
@@ -310,6 +303,9 @@ footer {
 .footer_navbar > .nav__links li a:hover {
   color: orange;
 }
+.signature {
+  width: 18rem;
+}
 
 .GetinTouch > h3 {
   padding-bottom: 10px;
@@ -317,9 +313,17 @@ footer {
 
 .GetinTouch img {
   transition: transform 0.5s;
-  margin: 0;
+  margin: 5px;
 }
 
 .GetinTouch img:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid whitesmoke;
+  background-color: #3f3f3f;
+  padding: 10px 0;
+  color: #f6f6f6;
 }
